@@ -1,0 +1,8 @@
+[package]
+name = "rust_life"
+version = "0.1.0"
+authors = ["Daniel Tebbutt <moeruze.burning@gmail.com>"]
+
+[dependencies]
+rand = "0.3"
+png_encode_mini = "*"
