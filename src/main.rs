@@ -38,7 +38,7 @@ fn main() {
 
 	let delay = time::Duration::from_millis(10);
 
-	for i in 0..2000 {
+	for i in 0..20 {
 
     	let mut f = std::fs::File::create(format!("life-{}.png", i)).unwrap();
 
